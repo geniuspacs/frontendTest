@@ -1,0 +1,18 @@
+<div id="mainContainer" class="border border-1">
+
+  <div class="d-flex h-100 justify-content-center align-items-center">
+    <form class="m-auto" [formGroup]="form" (ngSubmit)="logIn()">
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Username" formControlName="username" class="form-control my-1"
+          required>
+
+        <input type="password" name="" id="password" class="form-control my-1" placeholder="Password"
+          formControlName="password" required>
+      </div>
+
+      <input type="submit" [disabled]="form.invalid" [ngClass]="{'disabled': form.invalid}"
+        class="form-control btn-primary" value="logIn">
+    </form>
+  </div>
+
+</div>

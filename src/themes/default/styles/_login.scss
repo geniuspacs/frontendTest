@@ -1,0 +1,19 @@
+#mainContainer {
+  height: 100vh;
+
+  form {
+      width: 300px;
+  }
+
+  .ng-invalid[required].ng-touched {
+      border-left: 5px solid $danger;
+  }
+
+  input.ng-valid {
+      border-left: 5px solid $success;
+  }
+
+  input.disabled {
+      opacity: 0.4;
+  }
+}

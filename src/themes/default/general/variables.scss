@@ -1,0 +1,23 @@
+$primary: #24AAF2;
+$secondary: #FFD221;
+$success: #2ED600;
+$info: #75FF9A;
+$warning: #FF5D00;
+$danger: #D10000;
+$light: #F0F0F0;
+$dark: #191919;
+$dark-grey: #A5A5A5;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success,
+    "light": $light,
+    "dark": $dark,
+    "dark-grey": $dark-grey
+);
+
+$heightNavBar: 56px;
